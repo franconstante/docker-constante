@@ -13,6 +13,10 @@ Instalação o Jenkins
 
 Aplicação roda na porta 8080 (EXPOSE 8080)
 
+A imagem esta disponível em:
+
+`docker pull franconstante/jenkins:latest`
+
 Iniciar o container:
 
 `docker run -dit -p 1222:8080 --name jenkins franconstante/jenkins:latest`
