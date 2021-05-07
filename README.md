@@ -17,6 +17,8 @@ A imagem esta disponível em:
 
 `docker pull franconstante/jenkins:latest`
 
+Repo Docker Hub -> https://hub.docker.com/r/franconstante/jenkins
+
 Iniciar o container:
 
 `docker run -dit -p 1222:8080 --name jenkins franconstante/jenkins:latest`
